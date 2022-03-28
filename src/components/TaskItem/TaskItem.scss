@@ -30,4 +30,10 @@
     &__task_completed {
         text-decoration: line-through;
     }
+
+    &__input {
+        width: 260px;
+        margin-left: 8px;
+        padding: 5px 10px;
+    }
 }

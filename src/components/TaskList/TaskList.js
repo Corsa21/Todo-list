@@ -92,7 +92,7 @@ function TaskList() {
             </div>
             {filtredTasks.map((task) => {
                 return (
-                    <TaskItem key={task.id} task={task} tasks={tasks} setTasks={setTasks} />
+                    <TaskItem key={task.id} task={task} tasks={tasks} setTasks={setTasks}/>
                 );
             })}
             <div className='TaskList__container'>
