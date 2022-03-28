@@ -1,0 +1,33 @@
+.TaskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000;
+    margin: 8px 0;
+
+    &__img {
+        width: 36px;
+        cursor: pointer;
+    }
+
+    &__btn {
+        background-color: transparent;
+        border: none;
+        
+    }
+
+    &__task {
+        display: flex;
+        justify-content: flex-start;
+        width: 285px;
+        overflow: hidden;
+        font-size: 24px;
+        margin: 0;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    &__task_completed {
+        text-decoration: line-through;
+    }
+}

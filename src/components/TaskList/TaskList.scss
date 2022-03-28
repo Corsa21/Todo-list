@@ -1,0 +1,55 @@
+.TaskList {
+    width: 400px;
+    margin: 0 auto;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    &__container {
+        display: flex;
+        margin: 8px 0;
+    }
+
+    &__search {
+        width: 227px;
+        padding: 5px 10px;
+    }
+
+    &__btn {
+        padding: 5px 10px;
+        background-color: transparent;
+        border: 1px solid #000;
+        margin-left: 8px;
+        cursor: pointer;
+    }
+
+    &__inputAddItem {
+        width: 292px;
+        padding: 5px 10px;
+    }
+
+    &__addItem {
+        padding: 5px 10px;
+        margin-left: 8px;
+        background-color: transparent;
+        border: 1px solid #000;
+        cursor: pointer;
+    }
+
+    &__allButton_active {
+        background: green;
+        color: #fff;
+    }
+
+    &__activeButton_active {
+        background: green;
+        color: #fff;
+    }
+    &__doneButton_active {
+        background: green;
+        color: #fff;
+    }
+}
